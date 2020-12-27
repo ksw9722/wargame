@@ -1,0 +1,9 @@
+Pown3dBot is an IRC bot with a vulnerability.
+Find and exploit the vulnerabity to get the flag in the file .passwd
+
+SERVER      : irc.root-me.org
+PORT        : 6667
+CHANNEL     : #root-me_challenge
+NICK        : Pown3dBot
+COMPILATION : gcc -m32 -g -fno-stack-protector -z execstack *.c -o ch31
+GCC         : gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
